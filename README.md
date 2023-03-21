@@ -28,9 +28,7 @@ Users should be able to:
 [](./Captura1.PNG)
 
 ### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [live site URL here](https://helpful-meringue-2a1345.netlify.app/)
 
 
 ### Built with
