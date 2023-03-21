@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    color: hsl(0, 0%, 100%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(216, 50%, 16%);
+    width: 350px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.equilibrium {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+/* probando la posicion del logo sobre la imagen */
+
+.img-equilibrium {
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+    border-radius: 15px;
+}
+
+.capa {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 98%;
+    background-color: hsla(215, 51%, 70%, 0.5);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 15px;
+}
+
+.equilibrium:hover > .capa {
+    opacity: 1;
+    visibility: visible;
+} 
+
+.logo-ojo {
+    margin-top: 130px;
+    margin-left: 130px;
+    
+}
+
+/* TExto */
+.lote-equilibrium {
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 23px;
+}
+
+.lote-equilibrium:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.color {
+    color: hsl(215, 51%, 70%);
+    margin-bottom: 10px;
+}
+
+.card {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+    padding-bottom: 25px;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+
+.logo-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-card img {
+    margin-right: 10px;
+}
+
+.eth-price {
+    color: hsl(178, 100%, 50%);
+}
+
+.clock-day {
+    color: hsl(215, 51%, 70%);
+}
+
+.avatar {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+}
+
+.avatar img {
+    max-width: 40px;
+    margin-right: 15px;
+}
+
+.avatar p {
+    color: hsl(215, 51%, 70%);
+}
+
+.avatar a:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.avatar a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
